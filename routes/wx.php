@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::post('auth/register','App\Http\Controllers\Wx\AuthController@register');
+Route::post('auth/regCaptcha','App\Http\Controllers\Wx\AuthController@regCaptcha');
